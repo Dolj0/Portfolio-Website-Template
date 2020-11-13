@@ -1,0 +1,140 @@
+body{
+	background-color: #f4f4f4;
+	color:#555;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	line-height:1.6em;
+	margin:0;
+}
+
+.button{
+	background-color: #ccc;
+	color:#555;
+	padding: 10px 15px;
+}
+
+.container{
+	width:100%;
+	margin:auto;
+	overflow:hidden;
+	
+}
+
+#main-header{
+	background-color:#006400;
+	color:#fff;
+}
+
+#navbar{
+	background-color:#333;
+	color:#fff; 
+}
+
+#navbar ul{
+	padding:0;
+	list-style: none;
+}
+
+#navbar li{
+	display:inline; 
+}
+
+#navbar a{
+	color:#fff;
+	text-decoration: none;
+	font-size: 18px;
+	padding-right: 15px;
+}
+
+#showcase{
+	background-image:url('../Images/forestBackground.jpg');
+	background-position: center right;
+	min-height: 300px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+#showcase h1{
+	color: #fff;
+	font-size:50px;
+	line-height: 1.6em;
+	padding-top:30px;
+}
+
+.grid{
+	display: table;
+	border-spacing: 1em;
+
+}
+
+.grid-row{
+	display: table-row;
+}
+
+.grid-cell{
+	display: table-cell;
+	padding: 1em;
+	background-color:#ccc;
+	vertical-align: top; 
+}
+
+.main {
+	width: 80%;
+}
+
+.sidebar {
+	text-align: center;
+	width: 20%
+}
+
+.sidebar a{
+	padding: 100px 0;
+}
+
+.p-box{
+	margin-top: 50px;
+	width:100%;
+	height:500px;
+	position:relative;
+/* ../ prefix to file location brings you out of 
+the css file location*/
+	background-repeat: no-repeat; 	
+	background-position:100px 200px;
+	background-position:center center;  
+}
+
+.blockTitle{
+	text-align: center;
+}
+
+.block{
+	float:left;
+	width:33.3%;
+	background-color: #ccc;
+	border:40px solid #f4f4f4;
+	border-top: 20px solid #f4f4f4;
+	padding:10px;
+	box-sizing:border-box;
+
+}
+
+#main-footer{
+	background: #333;
+	color: #fff;
+	text-align: center;
+	padding:20px;
+	margin-top:40px;
+}
+
+@media(max-width: 600px){
+
+	#main{
+		width:100%;
+		float: none;
+	}
+
+	#sidebar{
+		width: 100%;
+		float: none;
+	}
+}
